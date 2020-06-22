@@ -1,0 +1,179 @@
+{
+  "inverter/1": {
+    "Data": {
+      "Current_AC_Phase_1": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.2,
+          "300": 1.1
+        }
+      },
+      "Current_AC_Phase_2": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.2,
+          "300": 1.1
+        }
+      },
+      "Current_AC_Phase_3": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.2,
+          "300": 1.1
+        }
+      },
+      "Current_DC_String_1": {
+        "Unit": "A",
+        "Values": {
+          "0": 0,
+          "300": 0
+        }
+      },
+      "Current_DC_String_2": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.8,
+          "300": 1.9
+        }
+      },
+      "EnergyReal_WAC_Sum_Produced": {
+        "Unit": "Wh",
+        "Values": {
+          "0": 70.8,
+          "300": 68.6
+        }
+      },
+      "InverterErrors": {
+        "Unit": "Object",
+        "Values": {}
+      },
+      "PowerReal_PAC_Sum": {
+        "Unit": "W",
+        "Values": {
+          "0": 852.0,
+          "300": 823.0
+        }
+      },
+      "TimeSpanInSec": {
+        "Unit": "sec",
+        "Values": {
+          "0": 299,
+          "300": 300
+        }
+      },
+      "Voltage_AC_Phase_1": {
+        "Unit": "V",
+        "Values": {
+          "0": 229.3,
+          "300": 229.2
+        }
+      },
+      "Voltage_AC_Phase_2": {
+        "Unit": "V",
+        "Values": {
+          "0": 230.1,
+          "300": 230.5
+        }
+      },
+      "Voltage_AC_Phase_3": {
+        "Unit": "V",
+        "Values": {
+          "0": 229.7,
+          "300": 229.7
+        }
+      },
+      "Voltage_DC_String_1": {
+        "Unit": "V",
+        "Values": {
+          "0": 91.1,
+          "300": 92.4
+        }
+      },
+      "Voltage_DC_String_2": {
+        "Unit": "V",
+        "Values": {
+          "0": 468.9,
+          "300": 468.9
+        }
+      }
+    },
+    "DeviceType": 99,
+    "End": "2020-01-01T23:59:59+00:00",
+    "NodeType": 97,
+    "Start": "2020-01-01T00:00:00+00:00"
+  },
+  "meter:1": {
+    "Data": {
+      "EnergyReal_WAC_Minus_Absolute": {
+        "Unit": "Wh",
+        "Values": {
+          "0": 10889952,
+          "300": 10889962
+        }
+      },
+      "EnergyReal_WAC_Plus_Absolute": {
+        "Unit": "Wh",
+        "Values": {
+          "0": 13602385,
+          "300": 13602395
+        }
+      },
+      "Meter_Location_Current": {
+        "Unit": "1",
+        "Values": {
+          "0": 0,
+          "300": 0
+        }
+      }
+    },
+    "End": "2020-01-01T23:59:59+00:00",
+    "Start": "2020-01-01T00:00:00+00:00"
+  },
+  "meter:2": {
+    "Data": {
+      "EnergyReal_WAC_Minus_Absolute": {
+        "Unit": "Wh",
+        "Values": {
+          "0": 8203284,
+          "300": 8203317
+        }
+      },
+      "EnergyReal_WAC_Plus_Absolute": {
+        "Unit": "Wh",
+        "Values": {
+          "0": 0,
+          "300": 0
+        }
+      },
+      "Meter_Location_Current": {
+        "Unit": "1",
+        "Values": {
+          "0": 256,
+          "300": 256
+        }
+      }
+    },
+    "End": "2020-01-01T23:59:59+00:00",
+    "Start": "2020-01-01T00:00:00+00:00"
+  },
+  "storage:1": {
+    "Data": {
+      "Hybrid_Operating_State": {
+        "Unit": "1",
+        "Values": {
+          "5": 4,
+          "200": 5
+        }
+      },
+      "StateOfCharge_Relative": {
+        "Unit": "%",
+        "Values": {
+          "0": 35.2,
+          "300": 34.5
+        }
+      }
+    },
+    "End": "2020-01-01T23:59:59+00:00",
+    "Start": "2020-01-01T00:00:00+00:00"
+  }
+}

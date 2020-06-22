@@ -1,0 +1,114 @@
+[
+  {
+    "id": "inverter/1/observation/2020010100000",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2019-12-31T23:55:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "powerIncoming": 844.02,
+    "powerOutgoing": 852,
+    "energyIncoming": 70.33500000000001,
+    "energyOutgoing": 70.8
+  },
+  {
+    "id": "inverter/1/observation/2020010100050",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2020-01-01T00:00:00.000Z",
+    "end": "2020-01-01T00:05:00.000Z",
+    "powerIncoming": 890.91,
+    "powerOutgoing": 823,
+    "energyIncoming": 74.2425,
+    "energyOutgoing": 68.6
+  },
+  {
+    "id": "solar/1/observation/2020010100000",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2019-12-31T23:55:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 0,
+    "energyIncoming": 0,
+    "energyOutgoing": 0
+  },
+  {
+    "id": "solar/1/observation/2020010100050",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2020-01-01T00:00:00.000Z",
+    "end": "2020-01-01T00:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 0,
+    "energyIncoming": 0,
+    "energyOutgoing": 0
+  },
+  {
+    "id": "meter/1/observation/2020010100000",
+    "type": "Observation",
+    "observedBy": "meter/1",
+    "start": "2019-12-31T23:55:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "totalEnergyIncoming": 13602385,
+    "totalEnergyOutgoing": 10889952
+  },
+  {
+    "id": "meter/1/observation/2020010100050",
+    "type": "Observation",
+    "observedBy": "meter/1",
+    "start": "2020-01-01T00:00:00.000Z",
+    "end": "2020-01-01T00:05:00.000Z",
+    "totalEnergyIncoming": 13602395,
+    "totalEnergyOutgoing": 10889962,
+    "energyIncoming": 10,
+    "energyOutgoing": 10,
+    "powerIncoming": 120,
+    "powerOutgoing": 120
+  },
+  {
+    "id": "meter/2/observation/2020010100000",
+    "type": "Observation",
+    "observedBy": "meter/2",
+    "start": "2019-12-31T23:55:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "totalEnergyIncoming": 0,
+    "totalEnergyOutgoing": 8203284
+  },
+  {
+    "id": "meter/2/observation/2020010100050",
+    "type": "Observation",
+    "observedBy": "meter/2",
+    "start": "2020-01-01T00:00:00.000Z",
+    "end": "2020-01-01T00:05:00.000Z",
+    "totalEnergyIncoming": 0,
+    "totalEnergyOutgoing": 8203317,
+    "energyIncoming": 0,
+    "energyOutgoing": 33,
+    "powerIncoming": 0,
+    "powerOutgoing": 396
+  },
+  {
+    "id": "battery/1/observation/2020010100000",
+    "type": "Observation",
+    "observedBy": "battery/1",
+    "start": "2019-12-31T23:55:00.000Z",
+    "end": "2020-01-01T00:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 844.02,
+    "energyIncoming": 0,
+    "energyOutgoing": 70.33500000000001,
+    "stateOfCharge": 0.35200000000000004
+  },
+  {
+    "id": "battery/1/observation/2020010100050",
+    "type": "Observation",
+    "observedBy": "battery/1",
+    "start": "2020-01-01T00:00:00.000Z",
+    "end": "2020-01-01T00:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 890.91,
+    "energyIncoming": 0,
+    "energyOutgoing": 74.2425,
+    "stateOfCharge": 0.34500000000000003
+  }
+]

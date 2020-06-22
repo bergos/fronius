@@ -1,0 +1,35 @@
+{
+  "Inverters" : {
+    "1" : {
+      "Battery_Mode" : "normal",
+      "DT" : 99,
+      "E_Day" : 1200.0,
+      "E_Total" : 2400.0,
+      "E_Year" : 3600.0,
+      "P" : -637,
+      "SOC" : 64.0
+    }
+  },
+  "SecondaryMeters" : {
+    "2" : {
+      "Category" : "METER_CAT_OTHER",
+      "Label" : "Car",
+      "MLoc" : 256,
+      "P" : -2213.0
+    }
+  },
+  "Site" : {
+    "BatteryStandby" : false,
+    "E_Day" : 1200.0,
+    "E_Total" : 2400.0,
+    "E_Year" : 3600.0,
+    "Meter_Location" : "grid",
+    "Mode" : "bidirectional",
+    "P_Akku" : -6230,
+    "P_Grid" : 309.0,
+    "P_Load" : 327.0,
+    "P_PV" : 5835,
+    "rel_Autonomy" : 100,
+    "rel_SelfConsumption" : 100
+  }
+}

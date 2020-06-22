@@ -1,0 +1,43 @@
+[
+  {
+    "id": "battery/1/current",
+    "type": "Observation",
+    "observedBy": "battery/1",
+    "end": null,
+    "powerIncoming": 6230,
+    "powerOutgoing": 0,
+    "stateOfCharge": 0.64
+  },
+  {
+    "id": "meter/grid/current",
+    "type": "Observation",
+    "observedBy": "meter/grid",
+    "end": null,
+    "powerIncoming": 309.0,
+    "powerOutgoing": 0
+  },
+  {
+    "id": "inverter/1/current",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "end": null,
+    "powerIncoming": 5835,
+    "powerOutgoing": -637
+  },
+  {
+    "id": "meter/2/current",
+    "type": "Observation",
+    "observedBy": "meter/2",
+    "end": null,
+    "powerIncoming": 0,
+    "powerOutgoing": 2213.0
+  },
+  {
+    "id": "solar/1/current",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "end": null,
+    "powerIncoming": 5835,
+    "powerOutgoing": 0
+  }
+]

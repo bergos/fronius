@@ -1,0 +1,36 @@
+{
+  "@vocab": "http://ns.bergnet.org/energy/",
+  "id": "@id",
+  "type": "@type",
+  "end": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "energyIncoming": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "energyOutgoing": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "observedBy": {
+    "@type": "@id"
+  },
+  "powerIncoming": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "powerOutgoing": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "start": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "stateOfCharge": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "totalEnergyIncoming": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "totalEnergyOutgoing": {
+    "@type": "http://www.w3.org/2001/XMLSchema#double"
+  },
+  "Observation": "http://ns.bergnet.org/cube/Observation"
+}
