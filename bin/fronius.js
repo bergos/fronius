@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const { writeFileSync } = require('fs')
+const { resolve } = require('path')
 const moment = require('moment')
 const { quadToNTriples } = require('@rdfjs/to-ntriples')
 const Client = require('../Client')
@@ -29,6 +30,15 @@ function toDate (string) {
   }
 
   return new Date(string)
+}
+
+function dateToFilename (date = new Date()) {
+  return date
+    .toISOString()
+    .slice(0, 19)
+    .split('-').join('')
+    .split(':').join('')
+    .split('T').join('-')
 }
 
 function toMapping (mapping, all) {
@@ -62,7 +72,7 @@ program
   })
 
 program
-  .command('dump <baseUrl>')
+  .command('archive-dump <baseUrl>')
   .option('-s, --start [date]', 'Start date', toDate)
   .option('-e, --end [date]', 'End date', toDate)
   .option('-p, --prefix [prefix]', 'Filename prefix', '')
@@ -92,6 +102,24 @@ program
     } else {
       process.stdout.write(JSON.stringify(data, null, ' '))
     }
+  })
+
+program
+  .command('power-flow-dump <baseUrl>')
+  .option('-o, --output [folder]', 'Output folder', '.')
+  .option('-n, --interval [seconds]', 'Interval in seconds', parseInt, 10)
+  .option('--postfix [string]', 'Postfix string for filename', 'default')
+  .action(async (baseURL, { output, interval, postfix } = {}) => {
+    const client = createClient(baseURL, {}, 'powerFlow')
+
+    setInterval(async () => {
+      const data = await client.powerFlow({ format: 'raw' })
+      const filename = `${resolve(output)}/${dateToFilename()}-${postfix}.json`
+
+      console.log(filename)
+
+      writeFileSync(filename, JSON.stringify(data, null, 2))
+    }, interval * 1000)
   })
 
 program.parse(process.argv)
