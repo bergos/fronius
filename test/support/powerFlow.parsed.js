@@ -40,12 +40,12 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('inverter/1/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerIncoming'),
-      factory.literal('5.835E3', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('6.37E2', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('inverter/1/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerOutgoing'),
-      factory.literal('-6.37E2', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('meter/2/current'),
@@ -60,12 +60,12 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('meter/2/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerIncoming'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('2.213E3', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('meter/2/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerOutgoing'),
-      factory.literal('2.213E3', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('meter/grid/current'),
@@ -100,12 +100,12 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('solar/1/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerIncoming'),
-      factory.literal('5.835E3', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('solar/1/current'),
       factory.namedNode('http://ns.bergnet.org/energy/powerOutgoing'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('5.835E3', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     )
   ]
 }

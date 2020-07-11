@@ -5,9 +5,9 @@
     "observedBy": "inverter/1",
     "start": "2019-12-31T23:55:00.000Z",
     "end": "2020-01-01T00:00:00.000Z",
-    "powerIncoming": 844.02,
+    "powerIncoming": 0,
     "powerOutgoing": 852,
-    "energyIncoming": 70.33500000000001,
+    "energyIncoming": 0,
     "energyOutgoing": 70.8
   },
   {
@@ -16,9 +16,9 @@
     "observedBy": "inverter/1",
     "start": "2020-01-01T00:00:00.000Z",
     "end": "2020-01-01T00:05:00.000Z",
-    "powerIncoming": 890.91,
+    "powerIncoming": 0,
     "powerOutgoing": 823,
-    "energyIncoming": 74.2425,
+    "energyIncoming": 0,
     "energyOutgoing": 68.6
   },
   {
@@ -71,8 +71,8 @@
     "observedBy": "meter/2",
     "start": "2019-12-31T23:55:00.000Z",
     "end": "2020-01-01T00:00:00.000Z",
-    "totalEnergyIncoming": 0,
-    "totalEnergyOutgoing": 8203284
+    "totalEnergyIncoming": 8203284,
+    "totalEnergyOutgoing": 0
   },
   {
     "id": "meter/2/observation/2020010100050",
@@ -80,12 +80,12 @@
     "observedBy": "meter/2",
     "start": "2020-01-01T00:00:00.000Z",
     "end": "2020-01-01T00:05:00.000Z",
-    "totalEnergyIncoming": 0,
-    "totalEnergyOutgoing": 8203317,
-    "energyIncoming": 0,
-    "energyOutgoing": 33,
-    "powerIncoming": 0,
-    "powerOutgoing": 396
+    "totalEnergyIncoming": 8203317,
+    "totalEnergyOutgoing": 0,
+    "energyIncoming": 33,
+    "energyOutgoing": 0,
+    "powerIncoming": 396,
+    "powerOutgoing": 0
   },
   {
     "id": "battery/1/observation/2020010100000",

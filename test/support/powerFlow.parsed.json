@@ -21,23 +21,23 @@
     "type": "Observation",
     "observedBy": "inverter/1",
     "end": null,
-    "powerIncoming": 5835,
-    "powerOutgoing": -637
+    "powerIncoming": 637,
+    "powerOutgoing": 0
   },
   {
     "id": "meter/2/current",
     "type": "Observation",
     "observedBy": "meter/2",
     "end": null,
-    "powerIncoming": 0,
-    "powerOutgoing": 2213.0
+    "powerIncoming": 2213.0,
+    "powerOutgoing": 0
   },
   {
     "id": "solar/1/current",
     "type": "Observation",
     "observedBy": "solar/1",
     "end": null,
-    "powerIncoming": 5835,
-    "powerOutgoing": 0
+    "powerIncoming": 0,
+    "powerOutgoing": 5835
   }
 ]
