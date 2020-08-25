@@ -12,6 +12,7 @@
     "@type": "http://www.w3.org/2001/XMLSchema#double"
   },
   "observedBy": {
+    "@id": "http://ns.bergnet.org/cube/observedBy",
     "@type": "@id"
   },
   "powerIncoming": {
