@@ -9,7 +9,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('battery/1/current'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('battery/1')
     ),
     factory.quad(
@@ -34,7 +34,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('inverter/1/current'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('inverter/1')
     ),
     factory.quad(
@@ -54,7 +54,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/2/current'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/2')
     ),
     factory.quad(
@@ -74,7 +74,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/grid/current'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/grid')
     ),
     factory.quad(
@@ -94,7 +94,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('solar/1/current'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('solar/1')
     ),
     factory.quad(
