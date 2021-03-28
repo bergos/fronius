@@ -24,7 +24,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('battery/1')
     ),
     factory.quad(
@@ -69,7 +69,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('battery/1')
     ),
     factory.quad(
@@ -114,7 +114,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('inverter/1')
     ),
     factory.quad(
@@ -154,7 +154,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('inverter/1')
     ),
     factory.quad(
@@ -184,7 +184,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/1')
     ),
     factory.quad(
@@ -224,7 +224,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/1')
     ),
     factory.quad(
@@ -264,7 +264,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/2')
     ),
     factory.quad(
@@ -304,7 +304,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('meter/2')
     ),
     factory.quad(
@@ -354,7 +354,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('solar/1')
     ),
     factory.quad(
@@ -394,7 +394,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/energy/observedBy'),
+      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
       factory.namedNode('solar/1')
     ),
     factory.quad(
