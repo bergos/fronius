@@ -102,7 +102,7 @@
     "NodeType": 97,
     "Start": "2020-01-01T01:00:00+01:00"
   },
-  "meter:1": {
+  "meter:IME - Smart Meter 63A - 1": {
     "Data": {
       "EnergyReal_WAC_Minus_Absolute": {
         "Unit": "Wh",
@@ -129,7 +129,7 @@
     "End": "2020-01-01T23:59:59+00:00",
     "Start": "2020-01-01T00:00:00+00:00"
   },
-  "meter:2": {
+  "meter:IME - Smart Meter 63A - 2": {
     "Data": {
       "EnergyReal_WAC_Minus_Absolute": {
         "Unit": "Wh",
