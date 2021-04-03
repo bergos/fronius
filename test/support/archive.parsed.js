@@ -5,7 +5,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100000'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100000'),
@@ -24,7 +24,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('battery/1')
     ),
     factory.quad(
@@ -50,7 +50,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100050'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100050'),
@@ -69,7 +69,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('battery/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('battery/1')
     ),
     factory.quad(
@@ -95,7 +95,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100000'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100000'),
@@ -114,7 +114,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('inverter/1')
     ),
     factory.quad(
@@ -135,7 +135,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100050'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100050'),
@@ -154,7 +154,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('inverter/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('inverter/1')
     ),
     factory.quad(
@@ -175,7 +175,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100000'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100000'),
@@ -184,7 +184,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('meter/1')
     ),
     factory.quad(
@@ -205,7 +205,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100050'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100050'),
@@ -224,7 +224,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('meter/1')
     ),
     factory.quad(
@@ -255,7 +255,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100000'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100000'),
@@ -264,7 +264,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('meter/2')
     ),
     factory.quad(
@@ -285,7 +285,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100050'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100050'),
@@ -304,7 +304,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('meter/2/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('meter/2')
     ),
     factory.quad(
@@ -335,7 +335,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100000'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100000'),
@@ -354,7 +354,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100000'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('solar/1')
     ),
     factory.quad(
@@ -375,7 +375,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100050'),
       factory.namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
-      factory.namedNode('http://ns.bergnet.org/cube/Observation')
+      factory.namedNode('https://cube.link/Observation')
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100050'),
@@ -394,7 +394,7 @@ module.exports = factory => {
     ),
     factory.quad(
       factory.namedNode('solar/1/observation/2020010100050'),
-      factory.namedNode('http://ns.bergnet.org/cube/observedBy'),
+      factory.namedNode('https://cube.link/observedBy'),
       factory.namedNode('solar/1')
     ),
     factory.quad(
