@@ -1,6 +1,6 @@
 [
   {
-    "id": "inverter/1/observation/2021032723000",
+    "id": "inverter/1/history/observation/2021032723000",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T22:55:00.000Z",
@@ -10,7 +10,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723050",
+    "id": "inverter/1/history/observation/2021032723050",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:00:00.000Z",
@@ -20,7 +20,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723100",
+    "id": "inverter/1/history/observation/2021032723100",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:05:00.000Z",
@@ -30,7 +30,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723150",
+    "id": "inverter/1/history/observation/2021032723150",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:10:00.000Z",
@@ -40,7 +40,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723200",
+    "id": "inverter/1/history/observation/2021032723200",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:15:00.000Z",
@@ -50,7 +50,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723250",
+    "id": "inverter/1/history/observation/2021032723250",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:20:00.000Z",
@@ -60,7 +60,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723300",
+    "id": "inverter/1/history/observation/2021032723300",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:25:00.000Z",
@@ -70,7 +70,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723350",
+    "id": "inverter/1/history/observation/2021032723350",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:30:00.000Z",
@@ -80,7 +80,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723400",
+    "id": "inverter/1/history/observation/2021032723400",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:35:00.000Z",
@@ -90,7 +90,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723450",
+    "id": "inverter/1/history/observation/2021032723450",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:40:00.000Z",
@@ -100,7 +100,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723500",
+    "id": "inverter/1/history/observation/2021032723500",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:45:00.000Z",
@@ -110,7 +110,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032723550",
+    "id": "inverter/1/history/observation/2021032723550",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:50:00.000Z",
@@ -120,7 +120,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800000",
+    "id": "inverter/1/history/observation/2021032800000",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-27T23:55:00.000Z",
@@ -130,7 +130,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800050",
+    "id": "inverter/1/history/observation/2021032800050",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:00:00.000Z",
@@ -140,7 +140,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800100",
+    "id": "inverter/1/history/observation/2021032800100",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:05:00.000Z",
@@ -150,7 +150,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800150",
+    "id": "inverter/1/history/observation/2021032800150",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:10:00.000Z",
@@ -160,7 +160,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800200",
+    "id": "inverter/1/history/observation/2021032800200",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:15:00.000Z",
@@ -170,7 +170,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800250",
+    "id": "inverter/1/history/observation/2021032800250",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:20:00.000Z",
@@ -180,7 +180,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800300",
+    "id": "inverter/1/history/observation/2021032800300",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:25:00.000Z",
@@ -190,7 +190,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800350",
+    "id": "inverter/1/history/observation/2021032800350",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:30:00.000Z",
@@ -200,7 +200,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800400",
+    "id": "inverter/1/history/observation/2021032800400",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:35:00.000Z",
@@ -210,7 +210,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800450",
+    "id": "inverter/1/history/observation/2021032800450",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:40:00.000Z",
@@ -220,7 +220,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800500",
+    "id": "inverter/1/history/observation/2021032800500",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:45:00.000Z",
@@ -230,7 +230,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032800550",
+    "id": "inverter/1/history/observation/2021032800550",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:50:00.000Z",
@@ -240,7 +240,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032801000",
+    "id": "inverter/1/history/observation/2021032801000",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T00:55:00.000Z",
@@ -250,7 +250,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "inverter/1/observation/2021032801050",
+    "id": "inverter/1/history/observation/2021032801050",
     "type": "Observation",
     "observedBy": "inverter/1",
     "start": "2021-03-28T01:00:00.000Z",
@@ -260,7 +260,7 @@
     "energyIncoming": 0
   },
   {
-    "id": "solar/1/observation/2021032723000",
+    "id": "solar/1/history/observation/2021032723000",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T22:55:00.000Z",
@@ -271,7 +271,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723050",
+    "id": "solar/1/history/observation/2021032723050",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:00:00.000Z",
@@ -282,7 +282,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723100",
+    "id": "solar/1/history/observation/2021032723100",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:05:00.000Z",
@@ -293,7 +293,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723150",
+    "id": "solar/1/history/observation/2021032723150",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:10:00.000Z",
@@ -304,7 +304,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723200",
+    "id": "solar/1/history/observation/2021032723200",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:15:00.000Z",
@@ -315,7 +315,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723250",
+    "id": "solar/1/history/observation/2021032723250",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:20:00.000Z",
@@ -326,7 +326,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723300",
+    "id": "solar/1/history/observation/2021032723300",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:25:00.000Z",
@@ -337,7 +337,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723350",
+    "id": "solar/1/history/observation/2021032723350",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:30:00.000Z",
@@ -348,7 +348,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723400",
+    "id": "solar/1/history/observation/2021032723400",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:35:00.000Z",
@@ -359,7 +359,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723450",
+    "id": "solar/1/history/observation/2021032723450",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:40:00.000Z",
@@ -370,7 +370,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723500",
+    "id": "solar/1/history/observation/2021032723500",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:45:00.000Z",
@@ -381,7 +381,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032723550",
+    "id": "solar/1/history/observation/2021032723550",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:50:00.000Z",
@@ -392,7 +392,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800000",
+    "id": "solar/1/history/observation/2021032800000",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-27T23:55:00.000Z",
@@ -403,7 +403,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800050",
+    "id": "solar/1/history/observation/2021032800050",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:00:00.000Z",
@@ -414,7 +414,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800100",
+    "id": "solar/1/history/observation/2021032800100",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:05:00.000Z",
@@ -425,7 +425,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800150",
+    "id": "solar/1/history/observation/2021032800150",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:10:00.000Z",
@@ -436,7 +436,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800200",
+    "id": "solar/1/history/observation/2021032800200",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:15:00.000Z",
@@ -447,7 +447,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800250",
+    "id": "solar/1/history/observation/2021032800250",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:20:00.000Z",
@@ -458,7 +458,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800300",
+    "id": "solar/1/history/observation/2021032800300",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:25:00.000Z",
@@ -469,7 +469,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800350",
+    "id": "solar/1/history/observation/2021032800350",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:30:00.000Z",
@@ -480,7 +480,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800400",
+    "id": "solar/1/history/observation/2021032800400",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:35:00.000Z",
@@ -491,7 +491,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800450",
+    "id": "solar/1/history/observation/2021032800450",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:40:00.000Z",
@@ -502,7 +502,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800500",
+    "id": "solar/1/history/observation/2021032800500",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:45:00.000Z",
@@ -513,7 +513,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032800550",
+    "id": "solar/1/history/observation/2021032800550",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:50:00.000Z",
@@ -524,7 +524,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032801000",
+    "id": "solar/1/history/observation/2021032801000",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T00:55:00.000Z",
@@ -535,7 +535,7 @@
     "energyOutgoing": null
   },
   {
-    "id": "solar/1/observation/2021032801050",
+    "id": "solar/1/history/observation/2021032801050",
     "type": "Observation",
     "observedBy": "solar/1",
     "start": "2021-03-28T01:00:00.000Z",
