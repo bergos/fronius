@@ -100,7 +100,7 @@
     "DeviceType": 99,
     "End": "2020-01-01T23:59:59+00:00",
     "NodeType": 97,
-    "Start": "2020-01-01T01:00:00+01:00"
+    "Start": "2020-01-01T00:00:00+00:00"
   },
   "meter:IME - Smart Meter 63A - 1": {
     "Data": {
@@ -158,6 +158,13 @@
   },
   "storage:1": {
     "Data": {
+      "Current_DC": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.8,
+          "300": -1.9
+        }
+      },
       "Hybrid_Operating_State": {
         "Unit": "1",
         "Values": {
@@ -170,6 +177,13 @@
         "Values": {
           "0": 35.2,
           "300": 34.5
+        }
+      },
+      "Voltage_DC": {
+        "Unit": "V",
+        "Values": {
+          "0": 468.9,
+          "300": 468.9
         }
       }
     },

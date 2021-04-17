@@ -105,10 +105,10 @@
     "observedBy": "battery/1",
     "start": "2020-01-01T00:00:00.000Z",
     "end": "2020-01-01T00:05:00.000Z",
-    "powerIncoming": 0,
-    "powerOutgoing": 890.91,
-    "energyIncoming": 0,
-    "energyOutgoing": 74.2425,
+    "powerIncoming": 890.91,
+    "powerOutgoing": 0,
+    "energyIncoming": 74.2425,
+    "energyOutgoing": 0,
     "stateOfCharge": 0.34500000000000003
   }
 ]

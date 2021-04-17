@@ -60,12 +60,12 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/energyIncoming'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('7.424250000000001E1', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/energyOutgoing'),
-      factory.literal('7.424250000000001E1', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
@@ -75,12 +75,12 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/powerIncoming'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('8.9091E2', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/powerOutgoing'),
-      factory.literal('8.9091E2', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100050'),
