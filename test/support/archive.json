@@ -158,6 +158,13 @@
   },
   "storage:1": {
     "Data": {
+      "Current_DC": {
+        "Unit": "A",
+        "Values": {
+          "0": 1.8,
+          "300": -1.9
+        }
+      },
       "Hybrid_Operating_State": {
         "Unit": "1",
         "Values": {
@@ -170,6 +177,13 @@
         "Values": {
           "0": 35.2,
           "300": 34.5
+        }
+      },
+      "Voltage_DC": {
+        "Unit": "V",
+        "Values": {
+          "0": 468.9,
+          "300": 468.9
         }
       }
     },

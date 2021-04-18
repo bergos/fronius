@@ -77,7 +77,7 @@ describe('Client', () => {
         const client = new Client(url)
         const result = await client.archive({ start: new Date(), end: new Date() })
 
-        deepStrictEqual(parsed, throughJson(result))
+        deepStrictEqual(throughJson(result), parsed)
       })
     })
 
@@ -100,6 +100,28 @@ describe('Client', () => {
         const result = await client.archive({ start: new Date(), end: new Date(), format: 'rdf' })
 
         strictEqual(rdf.dataset(result).toCanonical(), rdf.dataset(parsed).toCanonical())
+      })
+    })
+
+    it('should handle data during daylight saving changes', async () => {
+      await withServer(async server => {
+        const parsed = require('./support/archive.ds.parsed.json')
+        const content = buildResponse({
+          content: {
+            Data: require('./support/archive.ds.json')
+          }
+        })
+
+        server.app.get('/solar_api/v1/GetArchiveData.cgi', (req, res) => {
+          res.json(content)
+        })
+
+        const url = await server.listen()
+
+        const client = new Client(url)
+        const result = await client.archive({ start: new Date(), end: new Date() })
+
+        deepStrictEqual(throughJson(result), parsed)
       })
     })
   })

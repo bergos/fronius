@@ -36,6 +36,7 @@
     "glob": "^7.1.6",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.33",
     "nodeify-fetch": "^2.2.0",
     "readable-stream": "^3.4.0"
   },

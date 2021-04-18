@@ -12,7 +12,7 @@
     "@type": "http://www.w3.org/2001/XMLSchema#double"
   },
   "observedBy": {
-    "@id": "http://ns.bergnet.org/cube/observedBy",
+    "@id": "https://cube.link/observedBy",
     "@type": "@id"
   },
   "powerIncoming": {
@@ -33,5 +33,5 @@
   "totalEnergyOutgoing": {
     "@type": "http://www.w3.org/2001/XMLSchema#double"
   },
-  "Observation": "http://ns.bergnet.org/cube/Observation"
+  "Observation": "https://cube.link/Observation"
 }
