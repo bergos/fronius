@@ -21,6 +21,10 @@ function toDate (string) {
     return null
   }
 
+  if (string.startsWith('P')) {
+    return moment().subtract(moment.duration(string))
+  }
+
   if (string.match(new RegExp('^[0-9]{8}$'))) {
     return moment(string, 'YYYYMMDD')
   }
