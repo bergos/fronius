@@ -16,9 +16,9 @@
     "observedBy": "inverter/1",
     "start": "2020-01-01T00:00:00.000Z",
     "end": "2020-01-01T00:05:00.000Z",
-    "powerIncoming": 0,
+    "powerIncoming": 121.19999999999999,
     "powerOutgoing": 823,
-    "energyIncoming": 0,
+    "energyIncoming": 10.1,
     "energyOutgoing": 68.6
   },
   {
