@@ -145,7 +145,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('inverter/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/energyIncoming'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('1.01E1', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('inverter/1/history/observation/2020010100050'),
@@ -160,7 +160,7 @@ module.exports = factory => {
     factory.quad(
       factory.namedNode('inverter/1/history/observation/2020010100050'),
       factory.namedNode('http://ns.bergnet.org/energy/powerIncoming'),
-      factory.literal('0.0E0', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
+      factory.literal('1.212E2', factory.namedNode('http://www.w3.org/2001/XMLSchema#double'))
     ),
     factory.quad(
       factory.namedNode('inverter/1/history/observation/2020010100050'),
