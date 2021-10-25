@@ -1,4 +1,4 @@
-const { resolve } = require('path')
+const { resolve } = require('path').posix
 const { URL } = require('url')
 const fetch = require('nodeify-fetch')
 const parseArchive = require('./lib/archive/parse')
