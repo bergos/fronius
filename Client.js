@@ -3,7 +3,7 @@ const { URL } = require('url')
 const fetch = require('nodeify-fetch')
 const parseArchive = require('./lib/archive/parse')
 const parsePowerFlow = require('./lib/powerFlow/parse')
-const channels = require('./lib/channels')
+const allChannels = require('./lib/channels')
 const toRdf = require('./lib/toRdf')
 
 function urlResolve (baseURL, path) {
@@ -58,13 +58,26 @@ class Client {
     return content
   }
 
-  async archive ({ start, end, scope = 'System', format = 'json' }) {
+  async archive ({ start, end, scope = 'System', deviceClass, deviceId, channels = allChannels, seriesType, format = 'json' }) {
     const query = {
       Scope: scope,
       StartDate: start.toISOString(),
       EndDate: end.toISOString(),
       Channel: channels,
       HumanReadable: 'False'
+    }
+
+    if (scope !== 'System') {
+      if (!deviceClass || !deviceId) {
+        throw new Error(`scope=${scope}, but deviceClass or deviceId not given`)
+      }
+
+      query.DeviceClass = deviceClass
+      query.DeviceId = deviceId
+    }
+
+    if (seriesType) {
+      query.SeriesType = seriesType
     }
 
     const raw = await this.fetch('solar_api/v1/GetArchiveData.cgi', query)
