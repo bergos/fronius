@@ -1,6 +1,6 @@
 {
   "name": "fronius",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Fronius Solar JSON API",
   "main": "index.js",
   "scripts": {
