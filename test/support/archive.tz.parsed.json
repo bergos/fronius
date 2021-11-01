@@ -1,0 +1,317 @@
+[
+  {
+    "id": "inverter/1/history/observation/2021082100000",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-20T23:55:00.000Z",
+    "end": "2021-08-21T00:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 77,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100050",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:00:00.000Z",
+    "end": "2021-08-21T00:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 78,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100100",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:05:00.000Z",
+    "end": "2021-08-21T00:10:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 79,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100150",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:10:00.000Z",
+    "end": "2021-08-21T00:15:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 80,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100200",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:15:00.000Z",
+    "end": "2021-08-21T00:20:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 81,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100250",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:20:00.000Z",
+    "end": "2021-08-21T00:25:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 82,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100300",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:25:00.000Z",
+    "end": "2021-08-21T00:30:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 83,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100350",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:30:00.000Z",
+    "end": "2021-08-21T00:35:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 84,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100400",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:35:00.000Z",
+    "end": "2021-08-21T00:40:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 85,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100450",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:40:00.000Z",
+    "end": "2021-08-21T00:45:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 86,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100500",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:45:00.000Z",
+    "end": "2021-08-21T00:50:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 87,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082100550",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:50:00.000Z",
+    "end": "2021-08-21T00:55:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 88,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082101000",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T00:55:00.000Z",
+    "end": "2021-08-21T01:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 89,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082101050",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T01:00:00.000Z",
+    "end": "2021-08-21T01:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 90,
+    "energyIncoming": 0
+  },
+  {
+    "id": "inverter/1/history/observation/2021082101100",
+    "type": "Observation",
+    "observedBy": "inverter/1",
+    "start": "2021-08-21T01:05:00.000Z",
+    "end": "2021-08-21T01:10:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": 91,
+    "energyIncoming": 0
+  },
+  {
+    "id": "solar/1/history/observation/2021082100000",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-20T23:55:00.000Z",
+    "end": "2021-08-21T00:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100050",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:00:00.000Z",
+    "end": "2021-08-21T00:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100100",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:05:00.000Z",
+    "end": "2021-08-21T00:10:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100150",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:10:00.000Z",
+    "end": "2021-08-21T00:15:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100200",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:15:00.000Z",
+    "end": "2021-08-21T00:20:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100250",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:20:00.000Z",
+    "end": "2021-08-21T00:25:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100300",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:25:00.000Z",
+    "end": "2021-08-21T00:30:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100350",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:30:00.000Z",
+    "end": "2021-08-21T00:35:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100400",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:35:00.000Z",
+    "end": "2021-08-21T00:40:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100450",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:40:00.000Z",
+    "end": "2021-08-21T00:45:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100500",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:45:00.000Z",
+    "end": "2021-08-21T00:50:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082100550",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:50:00.000Z",
+    "end": "2021-08-21T00:55:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082101000",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T00:55:00.000Z",
+    "end": "2021-08-21T01:00:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082101050",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T01:00:00.000Z",
+    "end": "2021-08-21T01:05:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  },
+  {
+    "id": "solar/1/history/observation/2021082101100",
+    "type": "Observation",
+    "observedBy": "solar/1",
+    "start": "2021-08-21T01:05:00.000Z",
+    "end": "2021-08-21T01:10:00.000Z",
+    "powerIncoming": 0,
+    "powerOutgoing": null,
+    "energyIncoming": 0,
+    "energyOutgoing": null
+  }
+]

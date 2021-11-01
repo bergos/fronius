@@ -160,6 +160,17 @@ All other properties are mapped to the `http://ns.bergnet.org/energy/` namespace
 The date values are converted to literal with the datatype `xsd:dateTime`.
 For all number values the datatype `xsd:double` is used.
 
+## Date and Time
+
+**If you want to use the archive API, it's highly recommended to set the timezone of the inverter to Reykjavík (Island)!**
+
+The JSON structure of the archive API has a design issue that causes data loss during days when daylight saving is changed.
+Offsets are used for the data key/value pairs.
+The offset is calculated from the start time and the local time of the data.
+During daylight saving changes, the timezone offset of the start and the data can be different.
+That leads to key/value pairs with the same offset, but only one can be used in the data structure.
+It's a known and confirmed issue, but Fronius will not fix it.
+
 ## command-line interface
 
 The package contains also a command-line interface tool.

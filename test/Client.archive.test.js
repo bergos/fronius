@@ -103,12 +103,12 @@ describe('Client', () => {
       })
     })
 
-    it('should handle data during daylight saving changes', async () => {
+    it('should handle data with timezone offset', async () => {
       await withServer(async server => {
-        const parsed = require('./support/archive.ds.parsed.json')
+        const parsed = require('./support/archive.tz.parsed.json')
         const content = buildResponse({
           content: {
-            Data: require('./support/archive.ds.json')
+            Data: require('./support/archive.tz.json')
           }
         })
 
