@@ -1,8 +1,8 @@
-const { deepStrictEqual, strictEqual } = require('assert')
-const { withServer } = require('express-as-promise')
-const { describe, it } = require('mocha')
-const Client = require('../Client')
-const { buildResponse } = require('./support/utils')
+import { deepStrictEqual, strictEqual } from 'node:assert'
+import withServer from 'express-as-promise/withServer.js'
+import { describe, it } from 'mocha'
+import Client from '../Client.js'
+import { buildResponse } from './support/utils.js'
 
 describe('Client', () => {
   it('should be a constructor', () => {

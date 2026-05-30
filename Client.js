@@ -1,10 +1,10 @@
-const { resolve } = require('path').posix
-const { URL } = require('url')
-const fetch = require('nodeify-fetch')
-const parseArchive = require('./lib/archive/parse')
-const parsePowerFlow = require('./lib/powerFlow/parse')
-const allChannels = require('./lib/channels')
-const toRdf = require('./lib/toRdf')
+import { resolve } from 'node:path/posix'
+import { URL } from 'node:url'
+import fetch from 'nodeify-fetch'
+import parseArchive from './lib/archive/parse.js'
+import allChannels from './lib/channels.js'
+import parsePowerFlow from './lib/powerFlow/parse.js'
+import toRdf from './lib/toRdf.js'
 
 function urlResolve (baseURL, path) {
   const url = new URL(baseURL)
@@ -112,4 +112,4 @@ class Client {
   }
 }
 
-module.exports = Client
+export default Client
