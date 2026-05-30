@@ -1,6 +1,6 @@
 /* This file was automatically generated. Do not edit by hand. */
 
-module.exports = factory => {
+export default factory => {
   return [
     factory.quad(
       factory.namedNode('battery/1/history/observation/2020010100000'),

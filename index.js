@@ -1,7 +1,7 @@
-const Client = require('./Client')
-const MockClient = require('./MockClient')
+import Client from './Client.js'
+import MockClient from './MockClient.js'
 
-module.exports = {
+export {
   Client,
   MockClient
 }

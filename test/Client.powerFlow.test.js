@@ -1,9 +1,15 @@
-const { deepStrictEqual, strictEqual } = require('assert')
-const { withServer } = require('express-as-promise')
-const { describe, it } = require('mocha')
-const rdf = require('rdf-ext')
-const Client = require('../Client')
-const { buildResponse, throughJson } = require('./support/utils')
+import { deepStrictEqual, strictEqual } from 'node:assert'
+import { createRequire } from 'node:module'
+import withServer from 'express-as-promise/withServer.js'
+import { describe, it } from 'mocha'
+import rdf from 'rdf-ext'
+import Client from '../Client.js'
+import powerFlowParsedFactory from './support/powerFlow.parsed.js'
+import { buildResponse, throughJson } from './support/utils.js'
+
+const require = createRequire(import.meta.url)
+const powerFlowJson = require('./support/powerFlow.json')
+const powerFlowParsedJson = require('./support/powerFlow.parsed.json')
 
 describe('Client', () => {
   describe('powerFlow', () => {
@@ -61,10 +67,9 @@ describe('Client', () => {
 
     it('should parse the content', async () => {
       await withServer(async server => {
-        const parsed = require('./support/powerFlow.parsed.json')
         const content = buildResponse({
           content: {
-            Data: require('./support/powerFlow.json')
+            Data: powerFlowJson
           }
         })
 
@@ -77,16 +82,16 @@ describe('Client', () => {
         const client = new Client(url)
         const result = await client.powerFlow()
 
-        deepStrictEqual(parsed, throughJson(result))
+        deepStrictEqual(powerFlowParsedJson, throughJson(result))
       })
     })
 
     it('should parse the content and convert it to RDF if the format is rdf', async () => {
       await withServer(async server => {
-        const parsed = require('./support/powerFlow.parsed.js')(rdf)
+        const parsed = powerFlowParsedFactory(rdf)
         const content = buildResponse({
           content: {
-            Data: require('./support/powerFlow.json')
+            Data: powerFlowJson
           }
         })
 

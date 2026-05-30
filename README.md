@@ -1,4 +1,6 @@
 # fronius
+[![build status](https://img.shields.io/github/actions/workflow/status/bergos/fronius/test.yaml?branch=master)](https://github.com/bergos/fronius/actions/workflows/test.yaml)
+[![npm version](https://img.shields.io/npm/v/fronius.svg)](https://www.npmjs.com/package/fronius)
 
 This package simplifies the access to the Fronius Solar JSON API.
 

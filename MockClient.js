@@ -1,10 +1,9 @@
-const { readFile } = require('fs')
-const { promisify } = require('util')
-const glob = require('glob')
-const toRdf = require('./lib/toRdf')
-const filterArchive = require('./lib/archive/filter')
-const parseArchive = require('./lib/archive/parse')
-const parsePowerFlow = require('./lib/powerFlow/parse')
+import { readFile } from 'node:fs/promises'
+import { glob } from 'glob'
+import filterArchive from './lib/archive/filter.js'
+import parseArchive from './lib/archive/parse.js'
+import parsePowerFlow from './lib/powerFlow/parse.js'
+import toRdf from './lib/toRdf.js'
 
 class MockClient {
   constructor ({ archive, powerFlow, baseIRI, interval = 10000, mapping = new Map() } = {}) {
@@ -22,11 +21,11 @@ class MockClient {
 
   async init () {
     if (this.archivePattern && this.archiveFilenames === null) {
-      this.archiveFilenames = await promisify(glob)(this.archivePattern)
+      this.archiveFilenames = await glob(this.archivePattern)
     }
 
     if (this.powerFlowPattern && this.powerFlowFilenames === null) {
-      this.powerFlowFilenames = await promisify(glob)(this.powerFlowPattern)
+      this.powerFlowFilenames = await glob(this.powerFlowPattern)
     }
   }
 
@@ -34,8 +33,8 @@ class MockClient {
     await this.init()
 
     const filename = this.archiveFilenames[0]
-    const content = await promisify(readFile)(filename)
-    const raw = JSON.parse(content.toString())
+    const content = await readFile(filename, 'utf8')
+    const raw = JSON.parse(content)
 
     if (format === 'raw') {
       return raw
@@ -56,8 +55,8 @@ class MockClient {
 
     const now = new Date()
     const filename = this.powerFlowFilenames[Math.floor((now - this.start) / this.interval)]
-    const content = await promisify(readFile)(filename)
-    const raw = JSON.parse(content.toString())
+    const content = await readFile(filename, 'utf8')
+    const raw = JSON.parse(content)
 
     raw.Head.Timestamp = now.toISOString()
 
@@ -75,4 +74,4 @@ class MockClient {
   }
 }
 
-module.exports = MockClient
+export default MockClient

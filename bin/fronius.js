@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-const { writeFileSync } = require('fs')
-const { resolve } = require('path')
-const moment = require('moment')
-const { quadToNTriples } = require('@rdfjs/to-ntriples')
-const Client = require('../Client')
-const MockClient = require('../MockClient')
-const program = require('commander')
+import { writeFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+import toNT from '@rdfjs/to-ntriples'
+import { program } from 'commander'
+import moment from 'moment'
+import Client from '../Client.js'
+import MockClient from '../MockClient.js'
 
 function createClient (baseURL, options, method) {
   if (baseURL.startsWith('file://')) {
@@ -25,11 +25,11 @@ function toDate (string) {
     return moment().subtract(moment.duration(string))
   }
 
-  if (string.match(new RegExp('^[0-9]{8}$'))) {
+  if (string.match(/^[0-9]{8}$/)) {
     return moment(string, 'YYYYMMDD')
   }
 
-  if (string.match(new RegExp('^[0-9]{4}-[0-9]{2}-[0-9]{2}$'))) {
+  if (string.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)) {
     return moment(string, 'YYYY-MM-DD')
   }
 
@@ -54,7 +54,7 @@ function toMapping (mapping, all) {
 }
 
 function toNTriples (quads) {
-  return quads.map(quad => quadToNTriples(quad)).join('\n')
+  return quads.map(quad => toNT(quad)).join('\n')
 }
 
 program
